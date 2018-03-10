@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878891D920547787007341F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878891D820547787007341F3 /* AppDelegate.swift */; };
+		878891DB20547787007341F3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 878891DA20547787007341F3 /* art.scnassets */; };
+		878891DD20547787007341F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878891DC20547787007341F3 /* ViewController.swift */; };
+		878891E020547787007341F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878891DE20547787007341F3 /* Main.storyboard */; };
+		878891E220547787007341F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878891E120547787007341F3 /* Assets.xcassets */; };
+		878891E520547787007341F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878891E320547787007341F3 /* LaunchScreen.storyboard */; };
+		878891F020547787007341F3 /* electric_circuitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878891EF20547787007341F3 /* electric_circuitsTests.swift */; };
+		878891FB20547787007341F3 /* electric_circuitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878891FA20547787007341F3 /* electric_circuitsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		878891EC20547787007341F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878891CD20547787007341F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878891D420547787007341F3;
+			remoteInfo = "electric circuits";
+		};
+		878891F720547787007341F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878891CD20547787007341F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878891D420547787007341F3;
+			remoteInfo = "electric circuits";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		878891D520547787007341F3 /* electric circuits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "electric circuits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878891D820547787007341F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		878891DA20547787007341F3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		878891DC20547787007341F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		878891DF20547787007341F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		878891E120547787007341F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		878891E420547787007341F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		878891E620547787007341F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878891EB20547787007341F3 /* electric circuitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "electric circuitsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878891EF20547787007341F3 /* electric_circuitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electric_circuitsTests.swift; sourceTree = "<group>"; };
+		878891F120547787007341F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878891F620547787007341F3 /* electric circuitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "electric circuitsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878891FA20547787007341F3 /* electric_circuitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electric_circuitsUITests.swift; sourceTree = "<group>"; };
+		878891FC20547787007341F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878891D220547787007341F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878891E820547787007341F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878891F320547787007341F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878891CC20547787007341F3 = {
+			isa = PBXGroup;
+			children = (
+				878891D720547787007341F3 /* electric circuits */,
+				878891EE20547787007341F3 /* electric circuitsTests */,
+				878891F920547787007341F3 /* electric circuitsUITests */,
+				878891D620547787007341F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878891D620547787007341F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878891D520547787007341F3 /* electric circuits.app */,
+				878891EB20547787007341F3 /* electric circuitsTests.xctest */,
+				878891F620547787007341F3 /* electric circuitsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878891D720547787007341F3 /* electric circuits */ = {
+			isa = PBXGroup;
+			children = (
+				878891D820547787007341F3 /* AppDelegate.swift */,
+				878891DA20547787007341F3 /* art.scnassets */,
+				878891DC20547787007341F3 /* ViewController.swift */,
+				878891DE20547787007341F3 /* Main.storyboard */,
+				878891E120547787007341F3 /* Assets.xcassets */,
+				878891E320547787007341F3 /* LaunchScreen.storyboard */,
+				878891E620547787007341F3 /* Info.plist */,
+			);
+			path = "electric circuits";
+			sourceTree = "<group>";
+		};
+		878891EE20547787007341F3 /* electric circuitsTests */ = {
+			isa = PBXGroup;
+			children = (
+				878891EF20547787007341F3 /* electric_circuitsTests.swift */,
+				878891F120547787007341F3 /* Info.plist */,
+			);
+			path = "electric circuitsTests";
+			sourceTree = "<group>";
+		};
+		878891F920547787007341F3 /* electric circuitsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				878891FA20547787007341F3 /* electric_circuitsUITests.swift */,
+				878891FC20547787007341F3 /* Info.plist */,
+			);
+			path = "electric circuitsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878891D420547787007341F3 /* electric circuits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878891FF20547787007341F3 /* Build configuration list for PBXNativeTarget "electric circuits" */;
+			buildPhases = (
+				878891D120547787007341F3 /* Sources */,
+				878891D220547787007341F3 /* Frameworks */,
+				878891D320547787007341F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "electric circuits";
+			productName = "electric circuits";
+			productReference = 878891D520547787007341F3 /* electric circuits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		878891EA20547787007341F3 /* electric circuitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8788920220547787007341F3 /* Build configuration list for PBXNativeTarget "electric circuitsTests" */;
+			buildPhases = (
+				878891E720547787007341F3 /* Sources */,
+				878891E820547787007341F3 /* Frameworks */,
+				878891E920547787007341F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878891ED20547787007341F3 /* PBXTargetDependency */,
+			);
+			name = "electric circuitsTests";
+			productName = "electric circuitsTests";
+			productReference = 878891EB20547787007341F3 /* electric circuitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		878891F520547787007341F3 /* electric circuitsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8788920520547787007341F3 /* Build configuration list for PBXNativeTarget "electric circuitsUITests" */;
+			buildPhases = (
+				878891F220547787007341F3 /* Sources */,
+				878891F320547787007341F3 /* Frameworks */,
+				878891F420547787007341F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878891F820547787007341F3 /* PBXTargetDependency */,
+			);
+			name = "electric circuitsUITests";
+			productName = "electric circuitsUITests";
+			productReference = 878891F620547787007341F3 /* electric circuitsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		878891CD20547787007341F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Abraham Close";
+				TargetAttributes = {
+					878891D420547787007341F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					878891EA20547787007341F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 878891D420547787007341F3;
+					};
+					878891F520547787007341F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 878891D420547787007341F3;
+					};
+				};
+			};
+			buildConfigurationList = 878891D020547787007341F3 /* Build configuration list for PBXProject "electric circuits" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 878891CC20547787007341F3;
+			productRefGroup = 878891D620547787007341F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878891D420547787007341F3 /* electric circuits */,
+				878891EA20547787007341F3 /* electric circuitsTests */,
+				878891F520547787007341F3 /* electric circuitsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878891D320547787007341F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878891DB20547787007341F3 /* art.scnassets in Resources */,
+				878891E520547787007341F3 /* LaunchScreen.storyboard in Resources */,
+				878891E220547787007341F3 /* Assets.xcassets in Resources */,
+				878891E020547787007341F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878891E920547787007341F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878891F420547787007341F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878891D120547787007341F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878891DD20547787007341F3 /* ViewController.swift in Sources */,
+				878891D920547787007341F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878891E720547787007341F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878891F020547787007341F3 /* electric_circuitsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878891F220547787007341F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878891FB20547787007341F3 /* electric_circuitsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878891ED20547787007341F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878891D420547787007341F3 /* electric circuits */;
+			targetProxy = 878891EC20547787007341F3 /* PBXContainerItemProxy */;
+		};
+		878891F820547787007341F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878891D420547787007341F3 /* electric circuits */;
+			targetProxy = 878891F720547787007341F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		878891DE20547787007341F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878891DF20547787007341F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		878891E320547787007341F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878891E420547787007341F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878891FD20547787007341F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		878891FE20547787007341F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8788920020547787007341F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "electric circuits/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CUHACKIT.electric-circuits";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8788920120547787007341F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "electric circuits/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CUHACKIT.electric-circuits";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8788920320547787007341F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "electric circuitsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CUHACKIT.electric-circuitsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/electric circuits.app/electric circuits";
+			};
+			name = Debug;
+		};
+		8788920420547787007341F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "electric circuitsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CUHACKIT.electric-circuitsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/electric circuits.app/electric circuits";
+			};
+			name = Release;
+		};
+		8788920620547787007341F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "electric circuitsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CUHACKIT.electric-circuitsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "electric circuits";
+			};
+			name = Debug;
+		};
+		8788920720547787007341F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "electric circuitsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CUHACKIT.electric-circuitsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "electric circuits";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878891D020547787007341F3 /* Build configuration list for PBXProject "electric circuits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878891FD20547787007341F3 /* Debug */,
+				878891FE20547787007341F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878891FF20547787007341F3 /* Build configuration list for PBXNativeTarget "electric circuits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8788920020547787007341F3 /* Debug */,
+				8788920120547787007341F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8788920220547787007341F3 /* Build configuration list for PBXNativeTarget "electric circuitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8788920320547787007341F3 /* Debug */,
+				8788920420547787007341F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8788920520547787007341F3 /* Build configuration list for PBXNativeTarget "electric circuitsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8788920620547787007341F3 /* Debug */,
+				8788920720547787007341F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 878891CD20547787007341F3 /* Project object */;
+}
