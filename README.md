@@ -3,3 +3,5 @@
 
 # Authors
 Joey Bonitati
+Taylor Miller
+
